@@ -1,17 +1,18 @@
-import logo from "./logo.svg";
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="w-full">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-screen bg-gray-200 flex flex-col">
+      <p className="text-red-600">tailwind를 적용해봐요</p>
+      <p className="text-red-600">
+        cra로 tailwind를 적용하려면 tailwind v3를 사용해요
+      </p>
+      <p className="text-red-600">
+        그 후 npx tailwindcss init -p를 해서 config 파일을 생성해요
+      </p>
+      <p className="text-red-600">
+        그리고 index.css에 @import "tailwindcss/base"; @import
+        "tailwindcss/components"; @import "tailwindcss/utilities"; 를 추가해주면
+        적용 끝!
+      </p>
     </div>
   );
 }
