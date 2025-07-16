@@ -1,8 +1,11 @@
 import React, { JSX } from "react";
 
 function App(): JSX.Element {
+
+  const a = b;
+
   return (
-    <div className="ss-screen h-screen bg-gray-200 flex flex-col">
+    <div className="w-screen h-screen bg-gray-200 flex flex-col">
       <p className="text-red-600">tailwind를 적용해봐요</p>
       <p className="text-red-600">
         cra로 tailwind를 적용하려면 tailwind v3를 사용해요
