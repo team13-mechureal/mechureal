@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "TJJoyofsingingEB";
-  src: url("./asset/TJJoyofsingingEB.otf") format("otf");
+  src: url("./asset/TJJoyofsingingEB.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "TJJoyofsingingB";
-  src: url("./asset/TJJoyofsingingB.otf") format("otf");
+  src: url("./asset/TJJoyofsingingB.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "TJJoyofsingingL";
-  src: url("./asset/TJJoyofsingingL.otf") format("otf");
+  src: url("./asset/TJJoyofsingingL.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "TJJoyofsingingM";
-  src: url("./asset/TJJoyofsingingM.otf") format("otf");
+  src: url("./asset/TJJoyofsingingM.woff2") format("woff2");
 }
 
 body {
