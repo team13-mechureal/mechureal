@@ -1,0 +1,38 @@
+[
+  {
+    "food": "치킨",
+    "isFastFood": true,
+    "isChicken": true,
+    "isSpicy": false
+  },
+  {
+    "food": "피자",
+    "isFastFood": true,
+    "isChicken": false,
+    "isSpicy": false
+  },
+  {
+    "food": "닭갈비",
+    "isFastFood": false,
+    "isChicken": true,
+    "isSpicy": true
+  },
+  {
+    "food": "찜닭",
+    "isFastFood": false,
+    "isChicken": true,
+    "isSpicy": false
+  },
+  {
+    "food": "불족발",
+    "isFastFood": false,
+    "isChicken": false,
+    "isSpicy": true
+  },
+  {
+    "food": "삼겹살",
+    "isFastFood": false,
+    "isChicken": false,
+    "isSpicy": false
+  }
+]

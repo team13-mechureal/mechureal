@@ -1,0 +1,14 @@
+[
+  {
+    "key": "isFastFood",
+    "question": "패스트푸드 괜찮으세요?"
+  },
+  {
+    "key": "isSpicy",
+    "question": "매운 음식 좋아하세요?"
+  },
+  {
+    "key": "isChicken",
+    "question": "닭요리는 어떠신가요?"
+  }
+]
