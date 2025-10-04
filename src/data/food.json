@@ -1,38 +1,250 @@
 [
   {
-    "food": "치킨",
-    "isFastFood": true,
-    "isChicken": true,
-    "isSpicy": false
-  },
-  {
-    "food": "피자",
-    "isFastFood": true,
-    "isChicken": false,
-    "isSpicy": false
-  },
-  {
-    "food": "닭갈비",
-    "isFastFood": false,
-    "isChicken": true,
+    "food": "육개장",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": true,
     "isSpicy": true
   },
   {
-    "food": "찜닭",
-    "isFastFood": false,
-    "isChicken": true,
+    "food": "갈비탕",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": true,
     "isSpicy": false
   },
   {
-    "food": "불족발",
-    "isFastFood": false,
-    "isChicken": false,
+    "food": "소고기 국밥",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": false,
     "isSpicy": true
   },
   {
-    "food": "삼겹살",
-    "isFastFood": false,
-    "isChicken": false,
+    "food": "설렁탕/곰탕",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "얼큰 버섯전골",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": true
+  },
+  {
+    "food": "두부전골",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "김치찌개",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "된장찌개",
+    "isRice": true,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "제육볶음",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": true,
+    "isSpicy": true
+  },
+  {
+    "food": "간장 불고기 덮밥",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "오야코동",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "김치볶음밥",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "야채볶음밥",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "고추장 비빔밥",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "포케",
+    "isRice": true,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "차돌 짬뽕",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": true,
+    "isSpicy": true
+  },
+  {
+    "food": "샤브샤브",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "닭개장 칼국수",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "소고기 쌀국수",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": true,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "마라탕",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": true
+  },
+  {
+    "food": "들깨 칼국수",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "김치 칼국수",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "잔치국수",
+    "isRice": false,
+    "isHot": true,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "매운 차돌 볶음우동",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": true,
+    "isSpicy": true
+  },
+  {
+    "food": "차돌 아끼소바",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "고추잡채면",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "소고기 라이스누들",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": true,
+    "isFatty": false,
+    "isSpicy": false
+  },
+  {
+    "food": "스파이시 알리오 올리오",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": true
+  },
+  {
+    "food": "들기름 막국수",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": true,
+    "isSpicy": false
+  },
+  {
+    "food": "디아볼라 파스타",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": false,
+    "isSpicy": true
+  },
+  {
+    "food": "콩국수",
+    "isRice": false,
+    "isHot": false,
+    "isMeat": false,
+    "isFatty": false,
     "isSpicy": false
   }
 ]

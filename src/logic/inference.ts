@@ -7,8 +7,8 @@ export function entropy(group: any[]): number {
 
 export function infoGain(candidates: any[], key: string): number {
   const totalEntropy = entropy(candidates);
-  const yesGroup = candidates.filter(p => p[key] === true);
-  const noGroup = candidates.filter(p => p[key] === false);
+  const yesGroup = candidates.filter((p) => p[key] === true);
+  const noGroup = candidates.filter((p) => p[key] === false);
 
   const weighted =
     (yesGroup.length / candidates.length) * entropy(yesGroup) +
