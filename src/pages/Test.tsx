@@ -10,9 +10,11 @@ type Question = {
 };
 type Food = {
     food: string;
-    isFastFood: boolean,
-    isChicken: boolean,
-    isSpicy: boolean
+    isRice: boolean,
+    isHot: boolean,
+    isMeat: boolean,
+    isFatty: boolean,
+    isSpicy: boolean,
 };
 const Test = (): JSX.Element => {
     const [candidates, setCandidates] = useState<Food[]>(food as Food[]);
