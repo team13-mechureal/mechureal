@@ -1,14 +1,22 @@
 [
   {
-    "key": "isFastFood",
-    "question": "패스트푸드 괜찮으세요?"
+    "key": "isRice",
+    "question": "밥이 먹고 싶니?"
+  },
+  {
+    "key": "isHot",
+    "question": "뜨끈한 국물이 땡기니?"
+  },
+  {
+    "key": "isMeat",
+    "question": "고기가 듬뿍 먹고 싶니?"
+  },
+  {
+    "key": "isFatty",
+    "question": "기름진 음식이 먹고 싶니?"
   },
   {
     "key": "isSpicy",
-    "question": "매운 음식 좋아하세요?"
-  },
-  {
-    "key": "isChicken",
-    "question": "닭요리는 어떠신가요?"
+    "question": "매운 맛이 먹고 싶니?"
   }
 ]
