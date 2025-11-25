@@ -3,17 +3,10 @@ import mechureal from "../asset/img/mechureal.png";
 import { weatherInfoApi } from "../api/common";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { weatherCategoryMap } from "../data/weather";
+import { WeatherCategory, WeatherData } from "../type/weather";
+import { LocationData } from "../type/location";
 
-interface WeatherData {
-  category: string;
-  obsrValue: string;
-}
-
-interface LocationData {
-  latitude: number;
-  longitude: number;
-  accuracy?: number;
-}
 
 // Leaflet 마커 아이콘 설정 (기본 아이콘 경로 문제 해결)
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -255,7 +248,7 @@ const Home = (): JSX.Element => {
   }, []);
 
   return (
-    <div className="w-screen h-screen bg-ivory flex flex-col items-center">
+    <div className="w-screen h-full pb-[100px] bg-ivory flex flex-col items-center">
       <img
         src={mechureal}
         alt="Mechureal Logo"
@@ -294,19 +287,32 @@ const Home = (): JSX.Element => {
 
           {!loading && !error && weatherData.length > 0 && (
             <div className="space-y-2">
-              {weatherData.map((item, index) => (
-                <div
-                  key={index}
-                  className="flex justify-between p-2 bg-gray-50 rounded"
-                >
-                  <span className="tj-b-16 text-darkBrown">
-                    {item.category}:
-                  </span>
-                  <span className="tj-b-16 text-darkBrown">
-                    {item.obsrValue}
-                  </span>
-                </div>
-              ))}
+              {weatherData.map((item, index) => {
+
+                // weatherCategoryMap으로 정보 한글로 변환
+                const info = weatherCategoryMap[item.category as WeatherCategory];
+                if (!info) return null;
+
+                const value = info.convert
+                  ? info.convert(item.obsrValue)
+                  : `${item.obsrValue}${info.unit}`;
+
+                return (
+                  <div
+                    key={index}
+                    className="flex justify-between p-2 bg-gray-50 rounded"
+                  >
+                    <span className="tj-b-16 text-darkBrown">
+                      {info.label}:
+                    </span>
+                    <div>
+                      <span className="tj-b-16 text-darkBrown">
+                        {value}
+                      </span>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
           )}
 
