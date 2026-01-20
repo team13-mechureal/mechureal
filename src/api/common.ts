@@ -7,7 +7,7 @@ const getCurrentBaseDateTime = () => {
   const month = String(now.getMonth() + 1).padStart(2, "0");
   const date = String(now.getDate()).padStart(2, "0");
   const hours = now.getHours();
-  const minutes = now.getMinutes();
+  // const minutes = now.getMinutes();
 
   // 초단기실황은 매 시간 정각(00분)에 발표되며, 최근 1시간 이내 데이터만 제공
   // 현재 시간에서 1시간 전의 정각 시간을 사용
